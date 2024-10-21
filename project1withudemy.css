@@ -1,0 +1,172 @@
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container
+{
+    width: 80%;
+    margin: 0px auto;
+}
+.header
+{
+        height: 50px;
+        padding: 10px 0px;
+    
+}
+.logo h1 a
+{
+    font-weight: bold;
+    color: red;
+    font-size: 50px;
+    text-decoration: none;
+}
+    
+.searchbox
+{
+    float : right;
+    background-color: rgb(86, 180, 217);
+    padding: 20px;
+    border :1px solid white;
+    border-radius:10px;
+    
+}
+.text
+{
+    float: left;
+    padding: 5px;
+    border-radius: 10px;
+}
+.submit
+{
+    padding:5px;
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+}
+
+.menu
+{
+    height: 35px;
+    background-color:rgb(86, 180, 217);
+    line-height: none;
+    padding: 20px;
+    margin: 0%;
+    width: 20015;
+    margin: 0px;
+}
+.active 
+{
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 20px;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.active:last-child
+{
+    border-right: none;
+}
+ a:hover
+{
+    color :red;
+    font-weight: bold;
+    font-size:21px ;
+}
+.intro
+{
+    background-color: rgb(86, 180, 217); 
+    padding: 30px;
+    margin: 15px 0px;
+
+
+}
+.intro h3
+{
+    text-transform: uppercase ;
+    color: black;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.intro p
+{
+    text-align: justify;
+    font-size: 20px;
+    color: brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.right
+{
+    padding: 10px 20px ;
+    height: 500px;
+    width: 525px;
+    border: 2px solid darkblue;
+    border-radius: 20px;
+    float: right;
+    text-decoration: none;
+}
+.left
+{
+    padding: 10px 20px ;
+    height: 500px;
+    width: 525px;
+    border: 2px solid darkblue;
+    border-radius: 20px;
+    float: left;
+    text-decoration: none;
+}
+.right h3 , .left h3
+{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+}
+.right ul, .left ul
+{
+    padding-top: 10px;
+}
+.left ul li
+{
+    padding: 5px 0px 5px 10px;
+    list-style-image: url(/html/images/1891021_approved_check_checkbox_checkmark_confirm_icon.png);
+}
+.right ul li
+{
+     padding: 15px 0px 15px 7px;
+     list-style-image: url(/html/images/8550616_background_foreground_css_effect_shadow_icon.png) ;    
+}
+.left ul li a,.right ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: black;
+}
+
+.left ul li a:hover,.right ul li a:hover
+{
+    font-size: 22px;
+    color: rgb(86, 180, 217);
+    font-weight: bold;    
+}
+.clear
+{
+    clear:both;
+}
+.footer
+{
+    height: 50px;
+    padding: 10px 30px;
+    background-color: rgb(86, 180, 217);
+    margin: 15px;
+}
+.footer p
+{
+    text-align: center;
+    color:white;
+    padding-top: 15px;
+}
+
+
+
